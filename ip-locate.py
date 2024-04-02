@@ -20,7 +20,7 @@ while True:
                     with open(ipAddr + ".txt", "w") as file:
                         file.write(response.text)
                         print("Contents written to file.")
-                        sys.exit()
+                        continue
                 elif option.upper() == "E":
                     sys.exit()
                 else:
@@ -38,7 +38,7 @@ while True:
                     with open(ipAddr + ".txt", "w") as file:
                         file.write(response.text)
                         print("Contents written to file.")
-                        sys.exit()
+                        continue
                 elif option.upper() == "E":
                     sys.exit()
                 else:
