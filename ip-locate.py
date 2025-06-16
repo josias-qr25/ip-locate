@@ -5,7 +5,7 @@ def main():
 
     while True:
 
-        ipAddr = input("IP Address: ")
+        ipAddr = input("IP Address or URL: ")
         info = input("[S]hort or [C]omplete information? ")
         urlShort = "http://ip-api.com/json/" + ipAddr + "?fields=country,regioName,city,lat,lon,isp"
         urlMore = "http://ip-api.com/json/" + ipAddr
